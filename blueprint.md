@@ -21,3 +21,6 @@ $ npm start
 ```
 $ npm run build
 ```
+
+{{ template:contributors }}
+

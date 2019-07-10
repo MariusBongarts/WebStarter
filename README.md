@@ -22,6 +22,7 @@ Welcome to @marius/starter. This is version 1.0.0!
 
 * [➤ Installation](#-installation)
 * [➤ Building](#-building)
+* [➤ Contributors](#-contributors)
 
 
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#installation)
@@ -44,3 +45,17 @@ $ npm start
 ```
 $ npm run build
 ```
+
+
+[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#contributors)
+
+## ➤ Contributors
+	
+
+| [<img alt="Marius Bongarts" src="https://avatars2.githubusercontent.com/u/38838885?s=460&v=4" width="100">](bongarts.net) | [<img alt="You?" src="https://joeschmoe.io/api/v1/random" width="100">](https://github.com/andreasbm/readme/blob/master/CONTRIBUTING.md) |
+|:--------------------------------------------------:|:--------------------------------------------------:|
+| [Marius Bongarts](bongarts.net)                  | [You?](https://github.com/andreasbm/readme/blob/master/CONTRIBUTING.md) |
+| [marius@bongarts.net](mailto:marius@bongarts.net) |                                                  |
+| 🔥                                               |                                                  |
+
+

@@ -11,8 +11,24 @@
     "test": "karma start",
     "e2e": "tsc -p e2e && jasmine JASMINE_CONFIG_PATH=e2e/jasmine.json"
   },
+  "contributors": [
+    {
+      "name": "Marius Bongarts",
+      "email": "marius@bongarts.net",
+      "url": "bongarts.net",
+      "img": "https://avatars2.githubusercontent.com/u/38838885?s=460&v=4",
+      "info": [
+        "🔥"
+      ]
+    },
+    {
+      "name": "You?",
+      "img": "https://joeschmoe.io/api/v1/random",
+      "url": "https://github.com/andreasbm/readme/blob/master/CONTRIBUTING.md"
+    }
+  ],
   "keywords": [],
-  "author": "",
+  "author": "Marius Bongarts",
   "license": "ISC",
   "devDependencies": {
     "@appnest/readme": "^1.2.3",
