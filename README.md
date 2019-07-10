@@ -16,7 +16,8 @@ $ npm i
 $ npm start
 ```
 
-```html
+## ➤ Building
 
-
-
+```
+$ npm run build
+```
