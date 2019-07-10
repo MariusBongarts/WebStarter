@@ -1,0 +1,19 @@
+{
+  "description": "Automatically generate a beautiful best-practice README file based on the contents of your repository",
+  "text": "Use this readme generator to easily generate beautiful readme's like this one! Simply extend your <code>package.json</code> and create a readme blueprint. On Github, the README file is like the landing page of your website because it is the first thing visitors see. You want to make a good first impression.",
+  "logo": {
+    "src": "https://raw.githubusercontent.com/andreasbm/readme/master/assets/logo-shadow.png",
+    "width": "150"
+  },
+  "ids": {
+    "github": "andreasbm/readme",
+    "npm": "@appnest/readme"
+  },
+  "badges": [
+    {
+      "alt": "Custom badge",
+      "url": "https://github.com/badges/shields",
+      "img": "https://img.shields.io/badge/custom-badge-f39f37.svg"
+    }
+  ]
+}
