@@ -22,7 +22,18 @@ $ npm start
 $ npm run build
 ```
 
-## Components
+## Testing
+
+Karma tests
+```
+$ npm run test
+```
+
+Selenium tests
+```
+$ npm run e2e
+```
+
 {{ doc:src/components/app.component.ts }}
 
 {{ template:contributors }}

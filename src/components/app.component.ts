@@ -3,8 +3,8 @@ import { css, customElement, html, LitElement, property, unsafeCSS, query } from
 const componentCSS = require('./app.component.scss');
 
 /**
+ * @author Marius Bongarts
  * Root web component
- * @slot - Default content
  */
 @customElement('app-root')
 export class AppRoot extends LitElement {
