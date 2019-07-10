@@ -22,6 +22,7 @@ Welcome to @marius/starter. This is version 1.0.0!
 
 * [➤ Installation](#-installation)
 * [➤ Building](#-building)
+* [➤ Testing](#-testing)
 * [➤ app-root](#-app-root)
 	* [Properties](#properties)
 * [➤ Contributors](#-contributors)
@@ -48,6 +49,22 @@ $ npm start
 ```
 $ npm run build
 ```
+
+
+[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#testing)
+
+## ➤ Testing
+
+Karma tests
+```
+$ npm run test
+```
+
+Selenium tests
+```
+$ npm run e2e
+```
+
 
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#app-root)
 
