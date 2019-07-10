@@ -52,9 +52,9 @@ $ npm run build
 ## ➤ Contributors
 	
 
-| [<img alt="Marius Bongarts" src="https://avatars2.githubusercontent.com/u/38838885?s=460&v=4" width="100">](bongarts.net) | [<img alt="You?" src="https://joeschmoe.io/api/v1/random" width="100">](https://github.com/andreasbm/readme/blob/master/CONTRIBUTING.md) |
+| [<img alt="Marius Bongarts" src="https://avatars2.githubusercontent.com/u/38838885?s=460&v=4" width="100">](https://bongarts.net/) | [<img alt="You?" src="https://joeschmoe.io/api/v1/random" width="100">](https://github.com/andreasbm/readme/blob/master/CONTRIBUTING.md) |
 |:--------------------------------------------------:|:--------------------------------------------------:|
-| [Marius Bongarts](bongarts.net)                  | [You?](https://github.com/andreasbm/readme/blob/master/CONTRIBUTING.md) |
+| [Marius Bongarts](https://bongarts.net/)         | [You?](https://github.com/andreasbm/readme/blob/master/CONTRIBUTING.md) |
 | [marius@bongarts.net](mailto:marius@bongarts.net) |                                                  |
 | 🔥                                               |                                                  |
 
