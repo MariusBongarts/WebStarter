@@ -1,14 +1,14 @@
 import { LitElement } from 'lit-element';
-import { AppComponent } from './app.component';
+import { AppRoot } from './app.component';
 import './app.component';
 
-describe('marius-root', () => {
-  let element: AppComponent;
+describe('app-root', () => {
+  let element: AppRoot;
 
 
   beforeEach(async () => {
     localStorage.preferredLanguage = 'german';
-    element = document.createElement('marius-root') as AppComponent;
+    element = document.createElement('marius-root') as AppRoot;
     document.body.appendChild(element);
     await element.updateComplete;
   });

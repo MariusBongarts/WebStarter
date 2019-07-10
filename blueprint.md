@@ -24,3 +24,7 @@ $ npm run build
 
 {{ template:contributors }}
 
+{{ template:license }}
+
+{{ doc:src/components/app.component.ts }}
+

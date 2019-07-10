@@ -23,6 +23,10 @@ Welcome to @marius/starter. This is version 1.0.0!
 * [➤ Installation](#-installation)
 * [➤ Building](#-building)
 * [➤ Contributors](#-contributors)
+* [➤ License](#-license)
+* [➤ app-root](#-app-root)
+	* [Properties](#properties)
+	* [Slots](#slots)
 
 
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#installation)
@@ -57,5 +61,32 @@ $ npm run build
 | [Marius Bongarts](https://bongarts.net/)         | [You?](https://github.com/andreasbm/readme/blob/master/CONTRIBUTING.md) |
 | [marius@bongarts.net](mailto:marius@bongarts.net) |                                                  |
 | 🔥                                               |                                                  |
+
+
+
+[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#license)
+
+## ➤ License
+	
+Licensed under [ISC](https://opensource.org/licenses/ISC).
+
+
+[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#app-root)
+
+## ➤ app-root
+
+Root web component
+
+### Properties
+
+| Property | Attribute | Type     | Default              | Description             |
+|----------|-----------|----------|----------------------|-------------------------|
+| `title`  | `title`   | `string` | "LitElement Starter" | Title of this component |
+
+### Slots
+
+| Name | Description     |
+|------|-----------------|
+|      | Default content |
 
 

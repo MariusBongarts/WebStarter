@@ -2,17 +2,27 @@ import { css, customElement, html, LitElement, property, unsafeCSS, query } from
 
 const componentCSS = require('./app.component.scss');
 
-@customElement('marius-root')
-export class AppComponent extends LitElement {
+/**
+ * Root web component
+ * @slot - Default content
+ */
+@customElement('app-root')
+export class AppRoot extends LitElement {
 
   static styles = css`${unsafeCSS(componentCSS)}`;
 
-  @query('button')
-  btnElement!: HTMLButtonElement;
+  /**
+   * Title of this component
+   * @attr
+   * @type {string}
+   * @memberof AppComponent
+   */
+  @property()
+  title: string = 'LitElement Starter';
 
   render() {
     return html`
-          <h1>LitElement Starter</h1>
+          <h1>${this.title}</h1>
 `;
   }
 
