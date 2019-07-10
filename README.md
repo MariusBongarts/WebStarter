@@ -22,11 +22,12 @@ Welcome to @marius/starter. This is version 1.0.0!
 
 * [➤ Installation](#-installation)
 * [➤ Building](#-building)
-* [➤ Contributors](#-contributors)
-* [➤ License](#-license)
+* [➤ Components](#-components)
 * [➤ app-root](#-app-root)
 	* [Properties](#properties)
 	* [Slots](#slots)
+* [➤ Contributors](#-contributors)
+* [➤ License](#-license)
 
 
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#installation)
@@ -51,6 +52,30 @@ $ npm run build
 ```
 
 
+[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#components)
+
+## ➤ Components
+
+[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#app-root)
+
+## ➤ app-root
+
+Root web component
+
+### Properties
+
+| Property | Attribute | Type     | Default              | Description             |
+|----------|-----------|----------|----------------------|-------------------------|
+| `title`  | `title`   | `string` | "LitElement Starter" | Title of this component |
+
+### Slots
+
+| Name | Description     |
+|------|-----------------|
+|      | Default content |
+
+
+
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#contributors)
 
 ## ➤ Contributors
@@ -70,23 +95,5 @@ $ npm run build
 	
 Licensed under [ISC](https://opensource.org/licenses/ISC).
 
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#app-root)
-
-## ➤ app-root
-
-Root web component
-
-### Properties
-
-| Property | Attribute | Type     | Default              | Description             |
-|----------|-----------|----------|----------------------|-------------------------|
-| `title`  | `title`   | `string` | "LitElement Starter" | Title of this component |
-
-### Slots
-
-| Name | Description     |
-|------|-----------------|
-|      | Default content |
 
 

@@ -22,9 +22,12 @@ $ npm start
 $ npm run build
 ```
 
+## Components
+{{ doc:src/components/app.component.ts }}
+
 {{ template:contributors }}
 
 {{ template:license }}
 
-{{ doc:src/components/app.component.ts }}
+
 
