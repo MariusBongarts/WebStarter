@@ -51,7 +51,7 @@ describe('app', function () { return __awaiter(_this, void 0, void 0, function (
                         return [4 /*yield*/, driver.get('http://localhost:8080')];
                     case 2:
                         _a.sent();
-                        return [4 /*yield*/, driver.findElement(selenium_webdriver_1.By.tagName('app-root'))];
+                        return [4 /*yield*/, driver.findElement(selenium_webdriver_1.By.tagName('marius-root'))];
                     case 3:
                         appRoot = _a.sent();
                         return [2 /*return*/];
@@ -69,21 +69,17 @@ describe('app', function () { return __awaiter(_this, void 0, void 0, function (
             });
         }); });
         it('should find title element', function () { return __awaiter(_this, void 0, void 0, function () {
-            var headerElement, title, content;
+            var title, content;
             return __generator(this, function (_a) {
                 switch (_a.label) {
                     case 0: return [4 /*yield*/, getShadowRoot_1.getShadowRoot(appRoot)];
-                    case 1: return [4 /*yield*/, (_a.sent()).findElement(selenium_webdriver_1.By.tagName('app-header'))];
+                    case 1: return [4 /*yield*/, (_a.sent()).findElement(selenium_webdriver_1.By.tagName('h1'))];
                     case 2:
-                        headerElement = _a.sent();
-                        return [4 /*yield*/, getShadowRoot_1.getShadowRoot(headerElement)];
-                    case 3: return [4 /*yield*/, (_a.sent()).findElement(selenium_webdriver_1.By.className('navbar-brand'))];
-                    case 4:
                         title = _a.sent();
                         return [4 /*yield*/, title.getText()];
-                    case 5:
+                    case 3:
                         content = _a.sent();
-                        expect(content).toBe('WG-App');
+                        expect(content).toBe('LitElement Starter');
                         return [2 /*return*/];
                 }
             });

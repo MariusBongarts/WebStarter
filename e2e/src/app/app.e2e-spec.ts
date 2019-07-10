@@ -8,7 +8,7 @@ describe('app', async () => {
   beforeEach(async () => {
     driver = await new Builder().forBrowser(Browser.CHROME).build();
     await driver.get('http://localhost:8080');
-    appRoot = await driver.findElement(By.tagName('app-root'));
+    appRoot = await driver.findElement(By.tagName('marius-root'));
   });
 
   afterEach(async () => {
@@ -16,11 +16,9 @@ describe('app', async () => {
   });
 
   it('should find title element', async () => {
-    const headerElement = await (await getShadowRoot(appRoot)).findElement(
-      By.tagName('app-header'));
-    const title = await (await getShadowRoot(headerElement)).findElement(
-      By.className('navbar-brand'));
+    const title = await (await getShadowRoot(appRoot)).findElement(
+      By.tagName('h1'));
     const content = await title.getText();
-    expect(content).toBe('WG-App');
+    expect(content).toBe('LitElement Starter');
   }, 3000);
 });
