@@ -1,12 +1,14 @@
 {
-  "name": "@marius/starter",
+  "name": "@marius/dockerclient",
   "version": "1.0.0",
-  "description": "LitElement Starter Kit",
+  "identifier": "bronco-calendar",
+  "description": "Client in docker environment",
   "private": true,
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server --config webpack.dev.js --open",
+    "start": "webpack-dev-server --config webpack.dev.js --host 0.0.0.0 --hot --public 0.0.0.0",
     "build": "webpack --config webpack.prod.js --progress",
+    "deploy": "npm run build && docker run -p 4000:80 --rm cap",
     "lint": "tslint --force -t verbose -p tsconfig.json",
     "test": "karma start",
     "e2e": "tsc -p e2e && jasmine JASMINE_CONFIG_PATH=e2e/jasmine.json"
@@ -68,5 +70,11 @@
     "webpack-cli": "^3.3.0",
     "webpack-dev-server": "^3.2.1"
   },
-  "dependencies": {}
+  "dependencies": {
+    "@marius/broncoicon": "git+https://github.com/marius2502/bronco-icon.git",
+    "@types/bson": "^4.0.0",
+    "bson": "^4.0.2",
+    "material-icons": "^0.3.1"
+  },
+  "proxy": "http://server:3000"
 }

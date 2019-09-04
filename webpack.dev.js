@@ -6,6 +6,7 @@ module.exports = {
     historyApiFallback: {
       rewrites: [ { from: /^\/[a-z]*/, to: '/index.html' }, ]
     },
+    disableHostCheck: true,
     publicPath: ''
   },
   resolve: { extensions: ['.ts', '.js'] },
@@ -22,5 +23,11 @@ module.exports = {
       use: [ { loader: 'file-loader', options: { outputPath: 'assets/', publicPath: '/assets' } } ]
     }
   ] },
-  plugins: [ new HtmlWebpackPlugin({template: './src/index.html'}) ]
+  watchOptions: {
+    poll: true
+  },
+  plugins: [ new HtmlWebpackPlugin(
+    {
+      template: './src/index.html'
+    }) ]
 };

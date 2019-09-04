@@ -1,32 +1,13 @@
-Welcome to @marius/starter. This is version 1.0.0!
 
-<p align="center">
-		<a href="https://david-dm.org/marius2502/WebStarter"><img alt="Dependencies" src="https://img.shields.io/david/marius2502/WebStarter.svg" height="20"/></a>
-<a href="https://github.com/marius2502/WebStarter/graphs/contributors"><img alt="Contributors" src="https://img.shields.io/github/contributors/marius2502/WebStarter.svg" height="20"/></a>
-<a href="https://github.com/badges/shields"><img alt="Coverage" src="https://img.shields.io/badge/custom-badge-f39f37.svg" height="20"/></a>
-	</p>
+[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#live-demo)
 
+## ➤ Live demo
 
-<p align="center">
-  <b>LitElement Starter Kit</b></br>
-  <sub>Use this starter kit to build your own lightweight web components<sub>
+<p class="codepen" data-height="311" data-theme-id="0" data-default-tab="html,result" data-user="marius2502" data-slug-hash="MMzboL" style="height: 311px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="bronco-button">
+  <span>See the Pen <a target="_blank" href="https://codepen.io/marius2502/pen/MMzboL/">
+  bronco-calendar</a> by marius2502 (<a target="_blank" href="https://codepen.io/marius2502">@marius2502</a>)
+  on <a target="_blank" href="https://codepen.io">CodePen</a>.</span>
 </p>
-
-<br />
-
-
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#table-of-contents)
-
-## ➤ Table of Contents
-
-* [➤ Installation](#-installation)
-* [➤ Building](#-building)
-* [➤ Testing](#-testing)
-* [➤ app-root](#-app-root)
-	* [Properties](#properties)
-* [➤ Contributors](#-contributors)
-* [➤ License](#-license)
 
 
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#installation)
@@ -34,46 +15,36 @@ Welcome to @marius/starter. This is version 1.0.0!
 ## ➤ Installation
 
 ```
-$ npm i
+$ npm i https://github.com/marius2502/bronco-calendar.git
 ```
 
-```
-$ npm start
-```
-
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#building)
-
-## ➤ Building
-
-```
-$ npm run build
+```javascript
+import '@marius/broncocalendar/dist/main';
 ```
 
 
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#testing)
+[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#bronco-calendar)
 
-## ➤ Testing
+## ➤ bronco-calendar
 
-Karma tests
-```
-$ npm run test
-```
+This web component easily produces icons
 
-Selenium tests
-```
-$ npm run e2e
-```
-
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#app-root)
-
-## ➤ app-root
 ### Properties
 
-| Property | Attribute | Type     | Default              | Description             |
-|----------|-----------|----------|----------------------|-------------------------|
-| `title`  | `title`   | `string` | "LitElement Starter" | Title of this component |
+| Property      | Type       | Default      | Description                       |
+|---------------|------------|--------------|-----------------------------------|
+| `currentDate` | `Date`     | **required** |                                   |
+| `dayNames`    | `string[]` |              |                                   |
+| `loaded`      | `boolean`  | false        |                                   |
+| `maxDays`     | `number`   | **required** | Maximum of days in selected month |
+| `monthNames`  | `string[]` |              |                                   |
+
+### CSS Custom Properties
+
+| Property  | Description       |
+|-----------|-------------------|
+| `--color` | Color of the icon |
+| `--size`  | Size of the icon  |
 
 
 
@@ -95,6 +66,3 @@ $ npm run e2e
 ## ➤ License
 	
 Licensed under [ISC](https://opensource.org/licenses/ISC).
-
-
-
