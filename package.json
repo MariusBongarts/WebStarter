@@ -1,8 +1,8 @@
 {
-  "name": "@marius/dockerclient",
+  "name": "@marius/webcompstarter",
   "version": "1.0.0",
-  "identifier": "bronco-calendar",
-  "description": "Client in docker environment",
+  "identifier": "",
+  "description": "Starter for web components",
   "private": true,
   "main": "index.js",
   "scripts": {
@@ -71,10 +71,8 @@
     "webpack-dev-server": "^3.2.1"
   },
   "dependencies": {
-    "@marius/broncoicon": "git+https://github.com/marius2502/bronco-icon.git",
     "@types/bson": "^4.0.0",
-    "bson": "^4.0.2",
-    "material-icons": "^0.3.1"
+    "bson": "^4.0.2"
   },
   "proxy": "http://server:3000"
 }

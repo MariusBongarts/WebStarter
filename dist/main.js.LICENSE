@@ -979,21 +979,6 @@
 
 // tslint:disable-next-line:no-any decorator
 
-/**
- * A property decorator which creates a LitElement property which reflects a
- * corresponding attribute value. A `PropertyDeclaration` may optionally be
- * supplied to configure property features.
- *
- * @ExportDecoratedItems
- */
-
-/**
- * A property decorator that converts a class property into a getter that
- * executes a querySelector on the element's renderRoot.
- *
- * @ExportDecoratedItems
- */
-
 // Note, this is a getter so that it's lazy. In practice, this means
 
 // stylesheets are not created until the first element instance is made.
@@ -1155,16 +1140,6 @@
 
 //# sourceMappingURL=lit-element.js.map
 
-// CONCATENATED MODULE: ./src/services/http-client.ts
-
-// tslint:disable-next-line: no-empty
-
-// CONCATENATED MODULE: ./src/services/marker.service.ts
-
-// Backup Gateway
-
-// this.httpClient = new HttpClient({ baseURL: ' http://10.42.30.122:8080/finance/' });
-
 // CONCATENATED MODULE: ./src/components/app.component.ts
 
 /**
@@ -1176,5 +1151,20 @@
      * @author Marius Bongarts
      * Root web component
      */
+
+/**
+ * A property decorator which creates a LitElement property which reflects a
+ * corresponding attribute value. A `PropertyDeclaration` may optionally be
+ * supplied to configure property features.
+ *
+ * @ExportDecoratedItems
+ */
+
+/**
+ * A property decorator that converts a class property into a getter that
+ * executes a querySelector on the element's renderRoot.
+ *
+ * @ExportDecoratedItems
+ */
 
 // This callback is called once the class is otherwise fully defined
